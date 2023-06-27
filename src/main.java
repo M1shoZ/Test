@@ -14,10 +14,9 @@ public class main {
                 String name = result.getString("name" );
                 int salary = result.getInt("salary" );
 
-                System.out.print("Employees" );
-                System.out.print("id = " + id);
-                System.out.print("name = \" " + name + " \" " );
-                System.out.println("salary = \" " + salary + " \" . " );
+                System.out.println("Employ:");
+                System.out.println("id = " + id + "; name = " + name + "; salary = " + salary + ".");
+
             }
             connection.close();
         }
